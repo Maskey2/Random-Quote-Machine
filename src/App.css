@@ -3,8 +3,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
-    color:'white'
+    background-attachment: fixed;   
+    font-family: 'Sriracha', cursive;
 }
 .center {
     display: flex;
@@ -12,13 +12,14 @@ body{
     align-items: center;
     height: 930px;
     border: 10px solid white;
+    font-family: 'Sriracha', cursive;
   }
   .cen {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 25px auto;
-        
+        font-family: 'Sriracha', cursive;
   }
   
   .box {
@@ -26,7 +27,8 @@ body{
     padding: 10px;
     border: 1px solid white;
     margin: 0;
-    background-color:'white'
+    background-color:'white';
+    font-family: 'Sriracha', cursive;
   }
   button {
       background-color: aquamarine;
@@ -36,10 +38,12 @@ body{
       text-decoration: none;
       font-size: 20px;
       cursor: pointer;
+      font-family: 'Sriracha', cursive;
   }
   
   h2,h4,h3,h5,p{
       color:white;
       padding:5px;
       text-align: center;
+      font-family: 'Sriracha', cursive;
   }
