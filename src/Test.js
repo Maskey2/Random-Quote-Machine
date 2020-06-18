@@ -1,5 +1,5 @@
 import React from 'react'
-import './../App.css'
+import './App.css'
 
 class MyApp extends React.Component{
   constructor() {
@@ -37,13 +37,13 @@ class MyApp extends React.Component{
       return (
         <div id="quote-box" className="center">
           <div id="quote-box" className="box">
-          <h2> {items[num].quote} </h2>
-          <h5> - {items[num].author} </h5>             
+          <h1> {items[num].quote} </h1>
+          <h4> - {items[num].author} </h4>             
           
           <button id="new-quote" onClick={this.handler} className="cen">
             New Quote
           </button>
-          <button id="tweet-quote" className="cen"><a href="https://twitter.com/" target="_blank" rel="nopener" style={{textDecoration:'none', color:'black'}} >Tweet Quote</a></button>
+          <button id="tweet-quote" className="cen"><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'black'}} >Tweet Quote</a></button>
          </div>
         </div>
       )
@@ -51,5 +51,3 @@ class MyApp extends React.Component{
   }
   
   export default MyApp
-
- 
